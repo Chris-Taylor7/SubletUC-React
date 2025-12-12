@@ -19,6 +19,7 @@ const Button: React.FC<ButtonProps> = ({
     secondary: "bg-uc-purple text-white hover:bg-purple-800 focus:ring-uc-purple",
     outline: "border border-gray-300 text-uc-dark bg-white hover:bg-gray-50 focus:ring-uc-purple",
     danger: "bg-red-100 text-red-700 hover:bg-red-200 focus:ring-red-500",
+    black: "bg-black text-white hover: bg-black-400",
   };
 
   const sizes = {

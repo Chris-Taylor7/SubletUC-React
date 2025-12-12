@@ -44,8 +44,9 @@ const LandingPage: React.FC<LandingPageProps> = ({
             <Button size="lg" onClick={() => onNavigate('search')}>
               Browse Listings
             </Button>
-            <Button variant="outline" size="lg" className="bg-black text-white border-white hover:bg-white hover:text-uc-dark" onClick={() => onNavigate(user ? 'create' : 'auth')}>
+            <Button size="lg" variant="black" onClick={() => onNavigate(user ? 'create' : 'auth')}>
               Post a Sublet
+              
             </Button>
           </div>
         </div>
